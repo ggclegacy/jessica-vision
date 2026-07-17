@@ -2,6 +2,15 @@
 
 **Status:** Complete
 
+## Deployment readiness
+
+- Added explicit Vercel framework and production build configuration.
+- Confirmed the application lives at the repository root and deploys from `main`.
+- Required Vercel project setting: **Root Directory** must be blank (`./`).
+- Required Vercel framework preset: **Next.js**.
+- Fresh production build passed on July 16, 2026.
+- Production-server checks returned HTTP 200 for `/`, `/vision`, `/blueprint`, `/strategy`, and the logo asset.
+
 - Built the mobile-first Rooted Essence cinematic welcome experience.
 - Added the supplied emblem at `/public/rooted-essence-logo.png`.
 - Added the complete 15-question `/vision` journey across five editable sections.
